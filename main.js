@@ -49,8 +49,7 @@ const searchTodo = () => {
         item.style.display = 'block'
        }else{
 
-          ul.innerText = 'No Element Found !!'
-          ul.className = 'card w-75 my-2 border border-none shadow-lg p-4 m-auto text-center'
+          item.style.display = 'none'
           
         
        }
