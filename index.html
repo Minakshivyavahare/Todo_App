@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+</head>
+<body>
+   
+ 
+  <div class="container py-4 w-50 b">
+     <div class="card d-flex align-items-center ">
+        <div class="card-title fs-4 fw-bold mt-3">ToDo List &nbsp;<i class="fa-solid fa-pen text-success"></i></div>
+        
+        <form class="form-control my-4 w-75">
+            <div class="input-group my-3">
+                
+            <input type="text" id="searchInput" placeholder="Search Todo..." class="form-control float-end">
+            <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
+    
+            
+            <input id="input123" type="text" class="w-100 rounded-3 py-2">
+            <button class="bg-success border border-none my-2 py-1 fs-5 fw-bold rounded-3 w-100 text-light">Add</i></button>
+        </form>
+
+       
+        <button class="btn btn-primary mb-2  w-25 fs-5" id="sortbtn">Asc Sort</button>
+        <!-- <select class="form-select w-25 my-3">
+            <option selected>Filter</option>
+            <option value="1">Sort by A to Z</option>
+            <option value="2">Sort by Z to A</option>
+        </select> -->
+     </div>
+     <ul class="list-group my-3">
+        <li class="list-group-item">An Item<button class="btn btn-danger border border-none px-2 rounded-3 float-end text-white">Delete</button></li>
+         
+       </ul>
+     
+  </div>
+
+ 
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
